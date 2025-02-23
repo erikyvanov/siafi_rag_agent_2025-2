@@ -53,7 +53,7 @@ class StreamlitUI:
             """
         )
 
-        st.sidebar.markdown("Autor: **Erik Ivanov Dominguez**")
+        st.sidebar.markdown("Autor: **Erik Ivanov Domínguez Rivera**")
 
     def display_chat_history(self):
         if "messages" not in st.session_state:
